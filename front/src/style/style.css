@@ -1,0 +1,82 @@
+.bg-image{
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/more-leaves-on-green.png');
+}
+
+.logo{
+    height: 28px;
+}
+
+.forma{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 350px;
+    background-color: rgb(123, 206, 160);
+    border-radius: 25px;
+}
+
+.btn btn-success{
+    margin-top: 15px;
+}
+
+.custom-navbar{
+    background-color:rgb(21, 173, 89);
+}
+
+.nav-link{
+    font-size: 1.1em;
+}
+
+.navbar li{
+    margin-right: 15px;
+}
+
+.nav-item {
+    transition: transform 0.3s ease;
+}
+
+.nav-item:hover {
+    transform: translateY(-3px);
+}
+
+#myCarousel{
+    
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    
+}
+
+.row{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container-fluid{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    animation: buttonScale 0.5s infinite;
+}
+
+
+@keyframes buttonScale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
